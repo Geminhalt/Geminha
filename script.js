@@ -36,10 +36,16 @@ function cadastra(){
         }           
         bancoDeDados.push(usuario);
         localStorage.setItem("bancoDeDados", JSON.stringify(bancoDeDados));
-        alert("Usuário cadastrado com sucesso!");
+        alert("Usuário cadastrado com sucesso!")
+         window.location.href = "index.html"
     } else {
         alert("As senhas são diferentes!");
     }
     
 }
-    
+function negoney(){
+    window.location.href = "registro.html"
+}
+function chapadonic(){
+    window.location.href = "index.html"
+}

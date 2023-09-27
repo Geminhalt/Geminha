@@ -1,15 +1,49 @@
-div{
-    width: 300px;
+.register{
+    width: 260px;
     border-style:solid;
-    border-width: 1px;
+    border-width: 2px;
     text-align: center;   
     margin: 0 auto;
+    display: block;
+}
+.login{
+    width: 360px;
+    height: 160px;
+    border-style:solid; 
+    border-width: 2px;
+    text-align: center;   
+    margin: 0 auto;
+    display: block; 
+    font-family:'Times New Roman', Times, serif;
+}
+.content{
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    background-position: center;
 }
 input{
-    width: 200px;
+    width: 225px;
     text-align: center;
     border-radius: 5px;
 }
-button{
-    width: 75px;
+.variola{
+    width: 150px;
+    background-color: coral;
+}
+.gordo{
+    background-color: coral;
+}
+.gemas{
+    background-color: coral;
+}
+body{
+    background: url(fotos/Graphic\ design\ is\ my\ passion.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
 }
